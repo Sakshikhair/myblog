@@ -8,7 +8,7 @@
 <div class="media">
     <div class="media-body">
       <h5 class="mt-0"><a href="/blogpost/{{blog.slug}}" class="text-dark">{{blog.title}}</a></h5>
-      {{blog.content | slice:200}}...
+      {{blog.short_desc | slice:200}}...
     </div>
     <a href="/blogpost/{{blog.slug}}" class="text-dark"> <button class="btn btn-primary my-3">Read more.....</button>
 </div>
